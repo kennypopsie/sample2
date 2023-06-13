@@ -32,9 +32,8 @@
 #   end 
 # end 
 # puts max 
-def max_array 
-arr = [1,3,5,13,7,9]
-max_number = 0
+def max_array(arr)
+max_number = arr[0]
 arr.each do |a| 
   if max_number <  a 
     max_number = a   
@@ -42,4 +41,4 @@ arr.each do |a|
 end 
 return max_number
 end
-puts max_array
+puts max_array [1,3,5,13,7,9]
